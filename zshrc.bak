@@ -139,3 +139,6 @@ eval "$(zoxide init --cmd cd zsh)"
 # Mac's common web shell lang error (only web browser) - the error may still percist for some RHCSA distros, in cases the local must be fixed / updated in the server's lang profile with the following lines.
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
+
+# Added by Antigravity IDE
+export PATH="/Users/sajjadhossain/.antigravity-ide/antigravity-ide/bin:$PATH"
